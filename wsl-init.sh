@@ -15,8 +15,8 @@ echo >> /home/mmayr/.zshrc
 echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/mmayr/.zshrc
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
-# Install build-essentials
-sudo apt install build-essential -y
+# Install some basics
+sudo apt install build-essential zlib1g -y
 
 # Install Github CLI
 brew install gh
