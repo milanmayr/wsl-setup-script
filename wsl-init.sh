@@ -17,7 +17,7 @@ echo 'eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"' >> /home/mmayr/.zs
 eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
 
 # Install some basics
-sudo apt install build-essential zlib1g -y
+sudo apt install build-essential zlib1g libssl-dev pkg-config sqlite3 -y
 
 # Install Github CLI
 brew install gh
